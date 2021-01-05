@@ -55,6 +55,7 @@ int main() {
 
   /* an easy example with a known solution */
   cout << "A path through the maze from '>' to 'X' is: " << endl;
+  //cout << "Test" << endl;
   cout << find_path(maze, height, width, '>', 'X') << endl << endl;
 
   cout << "The path is shown below: " << endl;
